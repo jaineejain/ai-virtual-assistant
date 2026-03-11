@@ -27,7 +27,7 @@ const app = express()
 
 // Enable CORS for frontend (change origin to your frontend URL in production)
 app.use(cors({
-  origin: "http://localhost:5173",  // Frontend origin
+  origin: "https://ai-virtual-assistant-qvkl.onrender.com",  // Frontend origin
   credentials: true                 // Allow cookies to be sent
 }))
 
