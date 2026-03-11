@@ -45,8 +45,8 @@ export const signUp = async (req, res) => {
     res.cookie("token", token, {
       httpOnly: true,                       // Cannot access cookie via JS
       maxAge: 7 * 24 * 60 * 60 * 1000,      // Cookie expires in 7 days
-      sameSite: "lax",                       // Security measure
-      secure: false                           // Set true in production with HTTPS
+      sameSite: "None",                       // Security measure
+      secure: true                           // Set true in production with HTTPS
     })
 
     // Respond with the created user data
@@ -86,8 +86,8 @@ export const Login = async (req, res) => {
     res.cookie("token", token, {
       httpOnly: true,
       maxAge: 7 * 24 * 60 * 60 * 1000,  // 7 days
-      sameSite: "lax",                  // Security measure
-      secure: false
+      sameSite: "none",                  // Security measure
+      secure: true
     })
 
     // Respond with user data
