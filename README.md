@@ -1,4 +1,4 @@
-# AI Virtual Assistant (MERN + Gemini AI)
+# AI Virtual Assistant (MERN)
 
 A JARVIS-style AI Virtual Assistant built using the MERN Stack (MongoDB, Express, React, Node.js) integrated with Gemini AI for intelligent responses and the Web Speech API for real-time voice interaction.
 
